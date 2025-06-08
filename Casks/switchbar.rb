@@ -1,7 +1,7 @@
 cask "switchbar" do
-  version "16.9.0"
+  version "26.0.1"
 
-  url "https://webcatalog.io/api/download?appId=switchbar&platform=macos",
+  url "https://cdn-2.webcatalog.io/switchbar/Switchbar-#{version}-universal.dmg",
       verified: "webcatalog.io/"
   name "SwitchBar"
   desc "Browser picker for macOS"
